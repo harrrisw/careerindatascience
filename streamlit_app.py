@@ -39,7 +39,7 @@ st.markdown(
 
 # Define API URLs for the Mentor and Expert models
 API_URL_MENTOR = "https://flowise-arvh.onrender.com/api/v1/prediction/0647008b-1989-4d04-9e96-ba05c2c9cb91"
-API_URL_EXPERT = "https://flowise-9kx9.onrender.com/api/v1/prediction/cef2a608-65a9-4813-a3a7-171a153c40b3"
+API_URL_EXPERT = "https://flowise-arvh.onrender.com/api/v1/prediction/1731ee13-cea5-499c-b2b1-94c7259a2721"
 
 # List of randomized "thinking" messages
 thinking_messages = [
