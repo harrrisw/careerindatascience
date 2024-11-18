@@ -38,7 +38,7 @@ st.markdown(
 )
 
 # Define API URLs for the Mentor and Expert models
-API_URL_MENTOR = "https://flowise-9kx9.onrender.com/api/v1/prediction/e618573e-0725-49ae-81c3-9e84f16fd9df"
+API_URL_MENTOR = "https://flowise-arvh.onrender.com/api/v1/prediction/0647008b-1989-4d04-9e96-ba05c2c9cb91"
 API_URL_EXPERT = "https://flowise-9kx9.onrender.com/api/v1/prediction/cef2a608-65a9-4813-a3a7-171a153c40b3"
 
 # List of randomized "thinking" messages
@@ -212,7 +212,7 @@ if prompt := st.chat_input("Ask your question here..."):
 
     thinking_placeholder.empty()
 
-    with st.chat_message("assistant", avatar="https://github.com/Reese0301/GIS-AI-Agent/blob/main/4322991.png?raw=true"):
+    with st.chat_message("assistant", avatar="https://raw.githubusercontent.com/Reese0301/GIS-AI-Agent/refs/heads/main/bear_714027.png"):
         model_tag = "(Mentor)" if model_choice == "Mentor" else "(Expert)"
         st.markdown(f"💭 Thought for {response_time:.2f} seconds {model_tag}\n\n{response_content}")
     
